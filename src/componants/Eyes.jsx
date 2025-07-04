@@ -37,7 +37,7 @@ const [angle, setAngle] = useState(40);
       
   return (
     <div className=" w-full  overflow-hidden ">
-      <div data-scroll data-scroll-section data-scroll-speed="-0.25" className=" bg-amber-400 relative w-[80vw] my-20 rounded-2xl m-auto h-[60vh]  bg-[#000000]">
+      <div data-scroll data-scroll-section data-scroll-speed="-0.25" className=" bg-amber-400 relative w-[80vw] my-20 rounded-2xl m-auto h-[60vh]  ">
         
         <div className="  flex gap-5  top-1/2 left-1/2  -translate-x-[50%] -translate-y-[110%] absolute ">
 
