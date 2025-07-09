@@ -4,6 +4,7 @@ import Eyes from "./componants/Eyes"
 import Footer from "./componants/Footer"
 import Landing from "./componants/Landing"
 import Marquee from "./componants/Marquee"
+import Mouse from "./componants/Mouse"
 import Navbar from "./componants/Navbar"
 
 
@@ -15,6 +16,7 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="w-full h-screen bg-zinc-900  text-white ">
+      <Mouse/>
       <Navbar/>  
       <Landing/>
       <Marquee/>
